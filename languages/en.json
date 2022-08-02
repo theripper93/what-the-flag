@@ -1,3 +1,22 @@
 {
-    "MODULE.hello": "hello"
+    "what-the-flag": {
+        "settings": {
+            "enableForPlayers": {
+                "name": "Enable for players",
+                "hint": "Enable for players WTF for players. Requires players to refresh."
+            },
+            "showFlagPath": {
+                "name": "Show flag path",
+                "hint": "Useful if you need the path of a flag without digging into the console."
+            },
+            "tooltipPosition": {
+                "name": "Tooltip position",
+                "hint": "Position of the tooltip",
+                "left": "Left",
+                "right": "Right",
+                "top": "Top",
+                "bottom": "Bottom"
+            }
+        }
+    }
 }
