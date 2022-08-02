@@ -1,7 +1,7 @@
 {
-    "title": "name",
-    "description": "desc",
-    "id": "modid",
+    "title": "WTF: What the Flag?",
+    "description": "Provides tooltips that indicate which module is adding which option.",
+    "id": "what-the-flag",
     "version": "1.0",
     "authors": [
       {
@@ -18,14 +18,11 @@
       }
     ],
     "scripts": [
-        "scripts/config.js",
-        "scripts/main.js",
-        "scripts/module.js"
+        "scripts/main.js"
     ],
     "esmodules": [
     ],
     "styles": [
-      "styles/module.css"
     ],
     "packs": [
     ],
