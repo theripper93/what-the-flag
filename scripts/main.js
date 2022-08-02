@@ -1,4 +1,4 @@
-Hooks.on("init",()=>{
+Hooks.on("ready",()=>{
     if(!game.user.isGM) return;
 
     Hooks.on("renderApplication", (app,html) => {
@@ -14,7 +14,6 @@ Hooks.on("init",()=>{
         setTimeout(() => {
     
             const modIdCache = {};
-    
             const flags = html[0].querySelectorAll("[name]");
             for(const flag of flags){
                 const nameData = flag.getAttribute("name");
