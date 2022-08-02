@@ -60,10 +60,10 @@ Hooks.on("ready",()=>{
                 const nameData = flag.getAttribute("name");
                 if(!nameData.includes("flags")) continue;
                 const moduleId = nameData.split(".")[1];
-                let moduleName = modIdCache[moduleId] ?? game.modules.get(moduleId)?.title;
+                let moduleName = modIdCache[moduleId] ?? game.modules.get(moduleId)?.title ?? "";
                 modIdCache[moduleId] = moduleName;
                 if(!moduleName) continue;
-                if(showFlagPath) moduleName+= ` [${nameData}]`;
+                if(showFlagPath) moduleName += ` [${nameData}]`;
                 const fg = flag.closest(".form-group");
                 applyTooltip(fg ?? flag, moduleName);
             }
