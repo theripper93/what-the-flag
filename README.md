@@ -6,3 +6,9 @@ Provides tooltips that indicate which module is adding which option.
 Not much to say, hover over things, get the module name.
 
 ![image](https://user-images.githubusercontent.com/1346839/182436715-ca05a4d3-f634-4964-afcb-661305e064f3.png)
+
+Optionally, show the flag path
+
+![image](https://user-images.githubusercontent.com/1346839/182672392-877105ad-b686-448b-b8f9-3eafd3c0dfc9.png)
+
+Customize player permission and tooltip location in module settings
